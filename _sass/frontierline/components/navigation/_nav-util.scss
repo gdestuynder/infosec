@@ -57,7 +57,7 @@
 
         &:before {
             @include background-size(25px 200px);
-            background-image: url('/assets/images/icon-sprite.svg');
+            background-image: url('../images/icon-sprite.svg');
             background-repeat: no-repeat;
             bottom: 0;
             content: '';
@@ -125,7 +125,7 @@
         width: 30px;
 
         &:before {
-            background: transparent url('/assets/images/icon-sprite.svg') center -80px no-repeat;
+            background: transparent url('../images/icon-sprite.svg') center -80px no-repeat;
             @include background-size(25px 200px);
             content: '';
             display: block;

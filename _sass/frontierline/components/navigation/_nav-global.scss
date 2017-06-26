@@ -31,7 +31,7 @@
             @include background-size(cover);
             @include image-replaced;
             @include transition(background-size 250ms ease-in-out, -webkit-background-size 250ms ease-in-out);
-            background-image: url('/assets/images/mozilla-wordmark-black.svg');
+            background-image: url('../images/mozilla-wordmark-black.svg');
             background-repeat: no-repeat;
             display: block;
             height: 100%;
@@ -58,7 +58,7 @@
 
         &:before {
             @include background-size(25px 200px);
-            background-image: url('/assets/images/icon-sprite.svg');
+            background-image: url('../images/icon-sprite.svg');
             background-position: center -180px;
             background-repeat: no-repeat;
             content: '';
@@ -83,7 +83,7 @@
 
     .toggle {
         @include image-replaced;
-        background: #000 url('/assets/images/icon-menu-white.svg') center center no-repeat;
+        background: #000 url('../images/icon-menu-white.svg') center center no-repeat;
         @include background-size(22px auto);
         cursor: pointer;
         display: block;
@@ -137,7 +137,7 @@
 
         &:before {
             @include background-size(25px 200px);
-            background-image: url('/assets/images/icon-sprite.svg');
+            background-image: url('../images/icon-sprite.svg');
             background-repeat: no-repeat;
             content: '';
             display: inline-block;
