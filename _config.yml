@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 sass:
     sass_dir: _sass
+baseurl: /infosec
