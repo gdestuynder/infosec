@@ -1,8 +1,10 @@
+---
+layout: default
+---
+
 *The goal of this document is to help operational teams with the handling and management of cryptographic material.
 All Mozilla sites and deployment should follow the recommendations below.
 The Enterprise Information Security (Infosec) team maintains this document as a reference guide for operational teams.*
-
-*Updates to this page should be submitted to the [source repository on github](https://github.com/mozilla/wikimo_opsec/. Changes are detailed in the [commit history](https://github.com/mozilla/wikimo_opsec/commits/master).*
 
 # Data Definitions
 
