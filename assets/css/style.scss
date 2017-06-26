@@ -2,15 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@font-face {
-    font-family: ZillaSlab;
-    src: url("/assets/fonts/otf/ZillaSlab-Regular.otf") format("opentype");
-}
-@font-face {
-    font-family: ZillaSlab;
-    font-weight: bold;
-    src: url("/assets/fonts/otf/ZillaSlab-Bold.otf") format("opentype");
-}
 @import "frontierline/style.scss";
 .logo {
 	margin-left: 25px;
